@@ -26,4 +26,25 @@ optimize database system's scalability with the TPC-C benchmark.
 </p>
 <br>
 
+## Experiment
+* Intel core i7-8700 CPU@3.20GHz   RAM: 8.0GB  Windows10
+* TPCC-benchmark
+* RTE = 30 / client
+* 2 servers / computer,  4 computers
+* 2 clients and 8 servers in total
+
+## Result
+* optimized implementation
+** 233964 txns @ 8 servers, 斜率為 29,246 txns / server
+
+* without optimization
+** 160496 txns @ 8 servers 斜率為 20062 txns / server
+
+* 45.7 % improvement @ 8 servers
+<br>
+<p align="center">
+<img src="https://github.com/rrrjjj2019/dabase-system-final-project/blob/master/throughput.JPG" width="800" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<br>
+
 <br>
