@@ -6,7 +6,7 @@
 
 
 ## Project Goal
-optimize database system's scalability with the TPC-C benchmark.
+Optimize database system's scalability with the TPC-C benchmark.
 
 ## Methodology
 * Lock striping: 在 ConservativeLockTable 中， 需要 synchronized 的部分改以 Lock striping 的方式來實做。
