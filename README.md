@@ -35,10 +35,10 @@ optimize database system's scalability with the TPC-C benchmark.
 
 ## Result
 * optimized implementation
-** 233964 txns @ 8 servers, 斜率為 29,246 txns / server
+    - 233964 txns @ 8 servers, 斜率為 29,246 txns / server
 
 * without optimization
-** 160496 txns @ 8 servers 斜率為 20062 txns / server
+    - 160496 txns @ 8 servers 斜率為 20062 txns / server
 
 * 45.7 % improvement @ 8 servers
 <br>
